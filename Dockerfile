@@ -19,6 +19,8 @@ ENV RELAYHOST_PASSWORD=
 ENV RELAYHOST_TLS_LEVEL=
 # Allow domains from per Network ( default 127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16 )
 ENV MYNETWORKS=127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
+# Access restrictions for mail relay control ( default permit )
+ENV RELAY_RESTRICTIONS=permit
 # Allow any sender domains
 ENV ALLOWED_SENDER_DOMAINS=
 # Don't allow blank value for ALLOWED_SENDER_DOMAINS
