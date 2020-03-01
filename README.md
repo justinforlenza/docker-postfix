@@ -1,4 +1,4 @@
-# docker-postfix ![Docker image](https://github.com/justinforlenza/docker-postfix/workflows/Docker%20image/badge.svg)
+# docker-postfix 
 Simple postfix relay host for your Docker containers. Based on Alpine Linux.
 
 
